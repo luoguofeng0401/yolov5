@@ -41,6 +41,7 @@ logger = logging.getLogger(__name__)
 #except ImportError:
 #    wandb = None
 #    logger.info("Install Weights & Biases for experiment logging via 'pip install wandb' (recommended)")
+wandb = None
 
 def train(hyp, opt, device, tb_writer=None, wandb=None):
     logger.info(f'Hyperparameters {hyp}')
