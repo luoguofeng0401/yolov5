@@ -2,8 +2,8 @@ import argparse
 import time
 from pathlib import Path
 
-import gi
-gi.require_version('Gtk','2.0')
+#import gi
+#gi.require_version('Gtk','2.0')
 import cv2
 import torch
 import torch.backends.cudnn as cudnn
